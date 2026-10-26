@@ -14,7 +14,7 @@ Through a series of basic and advanced SQL queries, I explored how data can be t
 
 The project addresses key business questions across four major areas:
 
-#### 1. 📖 Book & Product Analysis
+#### 1. Book & Product Analysis
 
 Retrieved books by genre and publication year.
 
@@ -26,7 +26,7 @@ Identified the most frequently ordered books and books with the highest total qu
 
 Examined total stock availability and books with the lowest stock levels.
 
-#### 2. 👥 Customer Behavior Analysis
+#### 2. Customer Behavior Analysis
 
 Identified customers who placed multiple orders.
 
@@ -36,7 +36,7 @@ Explored customer locations by country and city.
 
 Identified the highest-spending customer in each country.
 
-#### 3. 💰 Sales & Revenue Analysis
+#### 3. Sales & Revenue Analysis
 
 Calculated total revenue generated from orders.
 
@@ -46,7 +46,7 @@ Retrieved orders exceeding a specified spending threshold.
 
 Examined orders placed during November 2023.
 
-#### 4. 📦 Inventory Management
+#### 4. Inventory Management
 
 Calculated remaining stock after accounting for ordered quantities.
 
@@ -54,49 +54,45 @@ Identified books at risk of running out of stock.
 
 Categorized inventory into Out of Stock, Low Stock, and Sufficient Stock using conditional logic.
 
-### 🛠️ SQL Concepts & Techniques Used
+###  SQL Concepts & Techniques Used
 
 This project helped me practice and apply the following SQL concepts:
 
-##### Filtering & Sorting: WHERE, ORDER BY, TOP
+1.Filtering & Sorting: WHERE, ORDER BY, TOP
 
-##### Aggregation: COUNT(), SUM(), AVG(), MAX()
+2. Aggregation: COUNT(), SUM(), AVG(), MAX()
 
-##### Grouping & Filtering Groups: GROUP BY, HAVING
+3. Grouping & Filtering Groups: GROUP BY, HAVING
 
-##### Table Relationships: INNER JOIN, LEFT JOIN
+4. Table Relationships: INNER JOIN, LEFT JOIN
 
-##### Subqueries: Finding maximum book prices
+5. Subqueries: Finding maximum book prices
 
-##### Null Handling: COALESCE()
+6. Null Handling: COALESCE()
 
-##### Conditional Logic: CASE expressions for inventory classification
+7. Conditional Logic: CASE expressions for inventory classification
 
-##### Date Functions: DATENAME(), DATEPART()
+8. Date Functions: DATENAME(), DATEPART()
 
 
 ### Key Analytical Insights
-
 The queries were designed to uncover the following types of business insights:
 
-##### Product Demand: Comparing books sold across genres and authors can help identify product categories and authors that deserve closer attention.
-
-##### Customer Loyalty: Customers placing multiple orders can be identified for customer retention and loyalty initiatives.
-
-##### Revenue Performance: Monthly revenue, order counts, and units sold provide complementary measures for evaluating sales performance.
-
-##### Inventory Risk: Comparing stock levels with ordered quantities helps flag books that may require replenishment.
-
-##### Customer Spending Patterns: Identifying high-spending customers by country can support targeted promotions and personalized offers.
-
-##### Pricing Opportunities: Analyzing book prices by genre can support pricing reviews and product assortment decisions.
-
-##### Window Functions: DENSE_RANK() for ranking books and customers
-
-##### Common Table Expressions (CTEs): Organizing multi-step inventory and ranking queries
-
-##### Data Formatting: FORMAT(), ROUND(), and type conversion using CONVERT()
-
+##### Product Demand:
+Comparing books sold across genres and authors can help identify product categories and authors that deserve closer attention.
+##### Customer Loyalty:
+Customers placing multiple orders can be identified for customer retention and loyalty initiatives.
+##### Revenue Performance: 
+Comparing revenue of different months like in the data 
+Monthly revenue -January with the highest revenue
+Order counts - with July having highest number of order placed.
+##### Inventory Risk: 
+Comparing stock levels with ordered quantities helps flag books that may require replenishment.
+##### Customer Spending Patterns:
+Identifying high-spending customers by country can support targeted promotions and personalized offers.
+##### Pricing Opportunities: 
+Comparing price of different book of different genre can help decide the preference of the customers. 
+This data have Mystery genre with the highest number of book sold 504.
 
 ### Business Solutions & Recommendations
 
@@ -129,27 +125,6 @@ Use customer spending and location analysis to plan targeted campaigns.
 These recommendations illustrate how SQL analysis can support data-driven decisions in a retail business.
 
 
-### Future Scope
-
-The project can be expanded further to improve the depth of analysis:
-
-#### Inventory Optimization: 
-
-Incorporate reorder levels, supplier lead times, and stock movement records to estimate replenishment needs more accurately.
-
-#### Genre & Author Performance: 
-
-Build comparative rankings and identify consistently high-performing products.
-
-#### Data Visualization:
-
-Connect SQL Server to Power BI or Excel to develop interactive sales and inventory dashboards.
-
-#### Query Validation:
-
-Add checks for duplicate records, missing values, inconsistent customer-order relationships, and negative calculated stock.
-
-
 ### What I Learned
 
 Through this project, I strengthened my ability to:
@@ -167,8 +142,4 @@ Calculate inventory indicators and develop actionable business recommendations.
 Approach business problems with a structured, data-driven mindset.
 
 
-### About This Project
-
-This is a hands-on SQL analytics project created as part of my journey into data analytics. It demonstrates my practical application of SQL Server to retail business questions and my ongoing development of analytical and problem-solving skills.
-
-### Skills: SQL | Microsoft SQL Server | Data Analysis | Business Insights | Inventory Analysis | Sales Analysis
+#### Skills: SQL | Microsoft SQL Server | Data Analysis | Business Insights | Inventory Analysis | Sales Analysis
